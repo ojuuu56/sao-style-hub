@@ -52,7 +52,7 @@ export default function SplashBanner({ onClose }: { onClose: () => void }) {
             visible && !closing ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
-          New Collection 2025
+          New Collection 2026
         </h1>
         <p
           className={`text-foreground/60 text-lg md:text-xl max-w-md mb-10 transition-all duration-700 delay-[900ms] ${
