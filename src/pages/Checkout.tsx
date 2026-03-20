@@ -162,7 +162,7 @@ export default function Checkout() {
                   </div>
                   <div className="flex justify-between text-sm text-muted-foreground mb-2">
                     <span>Delivery</span>
-                    <span>{totalPrice >= 3000 ? "Free" : "रू 150"}</span>
+                    <span>{form.city.toLowerCase().includes("biratnagar") ? "Free" : "रू 150"}</span>
                   </div>
                   <div className="flex justify-between text-lg font-bold mt-4">
                     <span>Total</span>
