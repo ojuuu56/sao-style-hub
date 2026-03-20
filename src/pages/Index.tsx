@@ -25,7 +25,7 @@ export default function Index() {
         <img
           src={bannerModel}
           alt="SAO Collection"
-          className="absolute inset-0 w-full h-full object-cover animate-scale-in"
+          className="absolute inset-0 w-full h-full object-cover object-top animate-scale-in"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 pb-20 md:pb-28 w-full">
