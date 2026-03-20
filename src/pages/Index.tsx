@@ -25,7 +25,7 @@ export default function Index() {
         <img
           src={bannerModel}
           alt="SAO Collection"
-          className="absolute inset-0 w-full h-full object-cover animate-scale-in"
+          className="absolute inset-0 w-full h-full object-cover object-top animate-scale-in"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 pb-20 md:pb-28 w-full">
@@ -76,7 +76,7 @@ export default function Index() {
               Free Delivery in Biratnagar
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8">
-              Orders above रू 3,000 get free delivery across Biratnagar
+              रू 150 flat delivery fee across Nepal
             </p>
             <Link
               to="/shop"
