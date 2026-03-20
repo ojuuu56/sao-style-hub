@@ -167,7 +167,7 @@ export default function Checkout() {
                   <div className="flex justify-between text-lg font-bold mt-4">
                     <span>Total</span>
                     <span className="gold-text">
-                      रू {(totalPrice + (totalPrice >= 3000 ? 0 : 150)).toLocaleString()}
+                      रू {(totalPrice + (form.city.toLowerCase().includes("biratnagar") ? 0 : 150)).toLocaleString()}
                     </span>
                   </div>
                 </div>

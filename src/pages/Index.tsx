@@ -76,7 +76,7 @@ export default function Index() {
               Free Delivery in Biratnagar
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8">
-              Orders above रू 3,000 get free delivery across Biratnagar
+              रू 150 flat delivery fee across Nepal
             </p>
             <Link
               to="/shop"
